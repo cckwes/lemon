@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitThis": false,
+    "noImplicitReturns": true,
+    "removeComments": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "target": "es2017",
+    "lib": [
+      "esnext",
+      "dom"
+    ],
+    "outDir": "dist/"
+  },
+  "include": [
+    "src/**/*.ts",
+    "migrations/**/*.ts",
+    "tests/**/*.ts",
+    "tests/**/*.js"
+  ]
+}

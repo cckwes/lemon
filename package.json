@@ -1,0 +1,24 @@
+{
+  "name": "lemon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^7.0.2",
+    "@types/sinon": "^7.5.2",
+    "chai": "^4.2.0",
+    "faker": "^4.1.0",
+    "mocha": "^7.1.1",
+    "sinon": "^9.0.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "inversify": "^5.0.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "yarn build && mocha dist/tests/*.js"
+  }
+}
